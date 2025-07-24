@@ -1,0 +1,10 @@
+# Meeting data containing personal information
+meetings/
+
+# User profile and personal settings
+user/
+
+# Generated outputs and reviews
+outputs/
+
+.env*

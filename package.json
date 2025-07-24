@@ -1,0 +1,10 @@
+{
+  "name": "meeting-coach-twitter-poster",
+  "version": "1.0.0",
+  "description": "Twitter posting functionality for idea refinery",
+  "type": "module",
+  "dependencies": {
+    "twitter-api-v2": "^1.24.0",
+    "dotenv": "^16.4.0"
+  }
+}
