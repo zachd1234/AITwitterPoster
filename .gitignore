@@ -8,3 +8,5 @@ user/
 outputs/
 
 .env*
+
+*[0-9]idea.md

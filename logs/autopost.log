@@ -1,0 +1,67 @@
+/Users/zachderhake/meeting-coach-1/scripts/cron-autopost.sh: line 8: node: command not found
+🤖 Starting auto-post process...
+📝 Processing idea: 90000idea.md
+Error extracting tweet from file: No generated tweet found in file
+❌ Error processing idea: No generated tweet found in file
+🤖 Starting auto-post process...
+📝 Processing idea: 90000idea.md
+📱 Tweet content: "ChatGPT is a force function to think."
+Tweet posted successfully!
+Tweet ID: 1948793979363090636
+Tweet URL: https://twitter.com/user/status/1948793979363090636
+✅ Tweet posted successfully!
+🔗 URL: https://twitter.com/user/status/1948793979363090636
+Moved 90000idea.md to finished ideas
+🤖 Starting auto-post process...
+📝 Processing idea: 97500idea.md
+Error extracting tweet from file: No tweet content found in #TWEET section
+❌ Error processing idea: No tweet content found in #TWEET section
+🤖 Starting auto-post process...
+📝 Processing idea: 97500idea.md
+📱 Tweet content: "Humans don't need to solve cancer, abundant energy, or climate change.
+We just need to build an AI system that can."
+Tweet posted successfully!
+Tweet ID: 1950000326284829010
+Tweet URL: https://twitter.com/user/status/1950000326284829010
+✅ Tweet posted successfully!
+🔗 URL: https://twitter.com/user/status/1950000326284829010
+Moved 97500idea.md to finished ideas
+🤖 Starting auto-post process...
+📝 Processing idea: 95000idea.md
+📱 Tweet content: "Big software companies have to make general solutions to get a lot of customers. But startups can outcompete them on one small user segment. Now that software is becoming so cheap with AI coding, only serving one small niche is becoming feasible for the first time. The result? Nichitization - software gets fragmented."
+Error posting tweet: Tweet text exceeds 280 character limit
+❌ Failed to post tweet: Tweet text exceeds 280 character limit
+🤖 Starting auto-post process...
+📝 Processing idea: 95000idea.md
+📱 Tweet content: "Big software companies have to make general solutions to get a lot of customers. But startups can outcompete them on one small user segment. Now that software is becoming so cheap with AI coding, only serving one small niche is becoming feasible for the first time. The result? Nichitization - software gets fragmented."
+Error posting tweet: Tweet text exceeds 280 character limit
+❌ Failed to post tweet: Tweet text exceeds 280 character limit
+🤖 Starting auto-post process...
+📝 Processing idea: 92500idea.md
+📱 Tweet content: "The $1,000 product deadzone is about to explode.
+
+Before: Too complex for viral marketing, too cheap for sales teams
+After: AI SDRs for $50/month
+
+Small business software, B2B tools, niche SaaS - entire categories that were "unsellable" are about to be wide open."
+Tweet posted successfully!
+Tweet ID: 1950981293069705717
+Tweet URL: https://twitter.com/user/status/1950981293069705717
+✅ Tweet posted successfully!
+🔗 URL: https://twitter.com/user/status/1950981293069705717
+Moved 92500idea.md to finished ideas
+🔄 Syncing Notion for new ideas...
+⚠️ Notion sync failed: Command failed: node scripts/notion-sync.js
+/bin/sh: node: command not found
+
+🤖 Starting auto-post process...
+📝 Processing idea: 89375idea.md
+📱 Tweet content: "I think the future of video games is real-time code generation. If you try something insane—like starting a rebellion—the game just writes the code on the fly. Video games will adjust to whatever situation you want."
+🧪 TEST MODE: Skipping actual tweet posting
+✅ Tweet would have been posted successfully!
+🔗 URL: https://test-url.com
+🧪 TEST MODE: Skipping file move
+🔄 Syncing Notion for new ideas...
+⚠️ Notion sync failed: Command failed: node scripts/notion-sync.js
+/bin/sh: node: command not found
+

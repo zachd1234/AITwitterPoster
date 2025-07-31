@@ -4,7 +4,8 @@
   "description": "Twitter posting functionality for idea refinery",
   "type": "module",
   "dependencies": {
-    "twitter-api-v2": "^1.24.0",
-    "dotenv": "^16.4.0"
+    "@anthropic-ai/claude-code": "^1.0.62",
+    "dotenv": "^16.4.0",
+    "twitter-api-v2": "^1.24.0"
   }
 }

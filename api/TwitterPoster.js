@@ -65,26 +65,4 @@ class TwitterPoster {
   }
 }
 
-async function main() {
-  if (process.argv.length < 3) {
-    console.error('Usage: node TwitterPoster.js "tweet text"');
-    process.exit(1);
-  }
-  
-  const tweetText = process.argv.slice(2).join(' ');
-  const poster = new TwitterPoster();
-  
-  const result = await poster.postTweet(tweetText);
-  
-  if (result.success) {
-    process.exit(0);
-  } else {
-    process.exit(1);
-  }
-}
-
-if (import.meta.url === `file://${process.argv[1]}`) {
-  main();
-}
-
-export default TwitterPoster;
+export default TwitterPoster;2
