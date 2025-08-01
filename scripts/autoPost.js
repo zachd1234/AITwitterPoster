@@ -91,13 +91,31 @@ async function main() {
       // Move file to finished ideas
       await moveToFinished(fileName);
       
-      // Sync Notion and generate new ideas
-      console.log('🔄 Syncing Notion for new ideas...');
+      // Run sync ideas via curl commands
+      console.log('🔄 Running sync ideas command...');
       try {
-        await execAsync('/Users/zachderhake/.volta/tools/image/node/22.16.0/bin/node scripts/notion-sync.js');
-        console.log('📚 Notion sync completed');
+        // Get session ID
+        const { stdout: sessionData } = await execAsync('curl -s -X POST http://localhost:4096/session');
+        const sessionId = JSON.parse(sessionData).id;
+        
+        // Send message to execute sync ideas
+        const curlCommand = `curl -X POST "http://localhost:4096/session/${sessionId}/message" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "parts": [
+              {
+                "type": "text",
+                "text": "cd .. out then cd into meeting-coach-1. Then, execute the sync ideas markdownfile that lives in the commands/ folder."
+              }
+            ],
+            "providerID": "anthropic",
+            "modelID": "claude-sonnet-4-20250514"
+          }'`;
+        
+        await execAsync(curlCommand);
+        console.log('✅ Sync ideas command sent successfully');
       } catch (error) {
-        console.error('⚠️ Notion sync failed:', error.message);
+        console.error('⚠️ Sync ideas command failed:', error.message);
       }
       
     } else {

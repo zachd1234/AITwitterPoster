@@ -265,3 +265,10 @@ Lawyers are involved in deals. Make fun of lawyers. negotiation. Participating p
 
 Convertible debt. Venture debt. Venture firm structure. Letter of intent to acquire 
 
+
+Time economics. Benefit vs amount of hours graph. Rarely linear. For a hourly job it is though. A lot of times the benefit vs amount of hours of work is very little at first then spikes up really fast once you reach a certain point. Certain points it may plateau. Take average slope. You need to spend time to get to the steep part.
+
+Decision A + 643 life points. Decision B +653 life points. Possible points earned per hour = +50. thus Time to figure out  what decision is better = 400 life points. So spend 400 life points for the best decision. 243 ;life points that way. Vs picking random: 648 life points
+
+
+j 
